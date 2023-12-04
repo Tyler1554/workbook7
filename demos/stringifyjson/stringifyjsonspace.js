@@ -6,6 +6,6 @@ let job = {
     maxSalary : 86000 
     };
 
-    let str = JSON.stringify(job);
+    let str = JSON.stringify(job, null, 1);
 
     console.log(str);
