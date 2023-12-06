@@ -38,11 +38,11 @@ function displayUserTable() {
           cell6.innerText = i.website;
           let cell7 = row.insertCell(6);
           cell7.innerText = i.address.street;
-          let cell8 = row.insertCell(6);
+          let cell8 = row.insertCell(7);
           cell8.innerText = i.address.suite;
-          let cell9 = row.insertCell(6);
+          let cell9 = row.insertCell(8);
           cell9.innerText = i.address.city;
-          let cell10 = row.insertCell(6);
+          let cell10 = row.insertCell(9);
           cell10.innerText = i.address.zipcode;
 
           if (i) {
