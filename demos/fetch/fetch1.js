@@ -10,4 +10,6 @@
 //   });
 //turn json stream into js
 
-fetch("http://jsonplaceholder.typicode.com/users/1").then(response => response.json()).then(data =>  console.log(data.name));
+fetch("http://jsonplaceholder.typicode.com/users/1")
+.then(response => response.json())
+.then(data =>  console.log(data.name));
